@@ -1,9 +1,13 @@
 package fizzBuzz;
 
 public class FizzBuzz {
-
+    
+	public String fizzBuzz(int number) {
+		return "Fizz";
+	}
+	
 	public static void main(String[] args) {
-		System.out.println("Hello world!");
+		FizzBuzz fizz = new FizzBuzz();
 	}
 
 }
