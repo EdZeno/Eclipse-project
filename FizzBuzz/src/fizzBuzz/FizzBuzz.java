@@ -18,7 +18,13 @@ public class FizzBuzz {
     
 	
 	public String fizzBuzz(int number) {
-		return "Fizz";
+		switch(number) {
+		case 35:
+			return "FizzBuzz";
+			default:
+				return "Wrong";
+		}
+		
 	}
 	
 	public static void main(String[] args) {

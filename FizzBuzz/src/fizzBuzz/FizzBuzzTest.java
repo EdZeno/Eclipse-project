@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Test;
 class FizzBuzzTest {
 
 	private final FizzBuzz fizz = new FizzBuzz();
-	int number = fizz.value(3);
+	int number = fizz.value(15);
 	
 	@Test
 	void testFizzBuzz() {
-        assertEquals( "Fizz", fizz.fizzBuzz(number));
+        assertEquals( "FizzBuzz", fizz.fizzBuzz(number));
 	}
 
 }
