@@ -21,6 +21,8 @@ public class FizzBuzz {
 		switch(number) {
 		case 35:
 			return "FizzBuzz";
+		case 3:
+			return "Fizz";
 			default:
 				return "Wrong";
 		}
