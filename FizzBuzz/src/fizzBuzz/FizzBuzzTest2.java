@@ -9,7 +9,12 @@ class FizzBuzzTest2 {
 
 	@Test
 	void testValue() {
-		assertEquals(1, fizz.value(3));
+		assertEquals(3, fizz.value(3));
+	}
+	
+	@Test
+	void testValueFive() {
+		assertEquals(5, fizz.value(5));
 	}
 
 }
