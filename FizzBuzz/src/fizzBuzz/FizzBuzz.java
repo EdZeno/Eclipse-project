@@ -23,6 +23,8 @@ public class FizzBuzz {
 			return "FizzBuzz";
 		case 3:
 			return "Fizz";
+		case 5:
+			return "Buzz";
 			default:
 				return "Wrong";
 		}
